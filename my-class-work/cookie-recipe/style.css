@@ -1,13 +1,11 @@
 style.css
 <style>
-header{
+body{
         text-align: center;
         background: url("http://i.imgur.com/ZvX6OKz.jpg");
         background-size: cover;
         
     }
-img {
-      margin: 100px 0px 0px 0px;
-    }
+
 
 </style>
