@@ -2,9 +2,9 @@ style.css
 <style>
 header{
         text-align: center;
-        background: img src="cookies.jpg";
+        background: url("http://i.imgur.com/ZvX6OKz.jpg");
         background-size: cover;
-        color: white;
+        
     }
 img {
       margin: 100px 0px 0px 0px;
