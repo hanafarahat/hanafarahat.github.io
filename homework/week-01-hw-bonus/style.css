@@ -1,0 +1,60 @@
+
+a:visited{
+	font-style: italic;
+}
+
+
+h4{
+	font-family: helvetica;
+	font-size: 20px;
+	text-align: center;
+}
+ul{
+	text-align: left;
+}
+.ex {
+	display: list-item;
+	text-align: left;
+	font-family: helvetica;
+}
+h6{
+	font-size: 20px;
+	font-family: helvetica;
+}
+
+li{
+	display: inline;
+	text-align: center;
+	font-family: helvetica;
+	font-size:20px;
+	font-weight: bold;
+}
+.links{
+	text-align: center;
+}
+a{
+	color: black;
+	text-align: center;
+	a:active {
+    font-style: italic;
+}
+a:visited {
+    font-style: italic;
+}
+}
+h1{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 30px;
+}
+h3 { border-bottom: 1px solid black }
+h2{
+	font-family: helvetica;
+}
+h5 {border-bottom: 5px solid black}
+p{
+	font-size: 20px;
+	
+
+
+

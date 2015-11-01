@@ -1,0 +1,45 @@
+body {
+	
+	background: #1688FB;
+	color: white;
+	font-family: 'courier';
+	
+}
+h1{
+	font-size: 70px;
+	text-align: center;
+}
+h4{
+	font-size: 40px;
+	text-align: center;
+}
+.thumbnail {
+	width:500px;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 7px solid white;
+    border-radius: 20px;
+}
+a {
+      color: white;
+    }
+p{
+	text-align: center;
+}
+
+h5 {border-bottom: 5px solid white}
+
+.ex{
+	display: inline;
+	text-align: center;
+	font-family: helvetica;
+	font-size:20px;
+	font-weight: bold;
+}
+.links{
+	text-align: center;
+}
+
+

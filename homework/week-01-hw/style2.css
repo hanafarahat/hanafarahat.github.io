@@ -1,0 +1,17 @@
+body {
+	
+	background: #1688FB;
+	color: white;
+	font-family: courier;
+	
+}
+h2 {
+	text-align: center;
+	font-size: 50px;
+}
+a{
+	display: inline;
+	text-align: center;
+
+}
+h5 {border-bottom: 5px solid white}
