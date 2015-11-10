@@ -1,0 +1,15 @@
+h1{
+	font-style: lato;
+	line-height: 1.5px;
+	color: #444444;
+
+}
+h2{
+	color: black;
+}
+ul{
+	display: inline;
+}
+aside{
+	float: left;
+}
