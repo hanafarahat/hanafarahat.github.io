@@ -1,15 +1,71 @@
-h1{
-	font-style: lato;
-	line-height: 1.5px;
-	color: #444444;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section,
+summary {
+    display: block;
+    width: 720px;
+    padding: 54px;
 
 }
+
+img {
+	width: 100%;
+}
+
+article {
+	border: 1px solid red;
+	border-bottom: 2px solid gray;
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+	line-height: 1.5px;
+	color: red;
+}
+.continues{
+	float: right;
+}
+
 h2{
 	color: black;
 }
-ul{
-	display: inline;
+
+li{
+	display: inline-block;
+	color: #dddddd;
+
 }
-aside{
-	float: left;
+
+h3{
+	color: black;
+}
+h4{
+	color: #cccccc;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+}
+
+a:link{
+	color: #dddddd;
+}
+
+a: visited{
+	color: #dddddd;
+}
+
+a:hover{
+	color: black;
+}
+
+footer{
+	color: #bbbbbb;
+}
+.bottom{
+	color: red;
 }
