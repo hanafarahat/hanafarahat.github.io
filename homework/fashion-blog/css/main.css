@@ -1,3 +1,5 @@
+
+/*CRUFT can remove*/
 /*article,
 aside,
 details,
@@ -14,6 +16,8 @@ summary {
 
 }*/
 
+
+/*can give this element a margin to move away from left side of screen to model comp*/
 .content {
 	width: 720px;
 /*	border: 1px solid blue;*/
@@ -29,6 +33,7 @@ article {
 	border-bottom: 2px solid gray
 }
 
+/*missing some spaces beore "{"*/
 h1{
 	font-family: 'Lato', sans-serif;
 	line-height: 1.5px;
@@ -44,9 +49,11 @@ h2{
 
 li{
 	display: inline-block;
+	/*protip can shorten this to #ddd*/
 	color: #dddddd;
 }
 
+/*could combine with h2 using comma since indentical style*/
 h3{
 	color: black;
 }
@@ -61,6 +68,7 @@ a:link{
 	color: #dddddd;
 }
 
+/*extra space after : should be a:visited*/
 a: visited{
 	color: #dddddd;
 }
