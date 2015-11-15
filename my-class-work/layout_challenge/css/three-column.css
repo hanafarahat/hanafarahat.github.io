@@ -1,0 +1,43 @@
+
+.container{
+	width: 1020px;
+	margin: 0 auto;
+}
+header{
+	background: red;
+	height: 100px;
+	margin: 10px auto;
+}
+aside{
+	background: green;
+	width:20%;
+	height: 250px;
+	float: right;
+	margin: 10px auto;
+}
+main{
+	background: yellow;
+	width: 60%;
+	height: 250px;
+	float: right;
+	margin: 10px auto;
+}
+footer{
+	background: blue;
+	height: 100px;
+	clear: both;
+	margin: 10px auto;
+}
+nav{
+	background: gray;
+	width: 20%;
+	height: 250px;
+	float: left;
+	margin: 10px auto;
+
+}
+.clearfix:after {
+	    content:"";
+	    display:table;
+	    clear:both;
+	}

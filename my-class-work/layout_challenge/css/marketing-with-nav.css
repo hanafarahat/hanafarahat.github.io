@@ -1,0 +1,39 @@
+.container{
+	width: 1000px;
+}
+header{
+	background-color: red;
+	height: 100px;
+	width: 200px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+main{
+	background-color: orange;
+	height: 200px;
+	width: 1000px;
+	clear: both;
+}
+nav{
+	background-color: yellow;
+	height: 70px;
+	width: 190px;
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+article{
+	background-color: green;
+	height: 100px;
+	width: 33%;
+	float: right;
+	margin: 10px 0px 10px 0px;
+}
+footer{
+	background-color: blue;
+	height: 100px;
+	clear: both;
+	margin: 10px auto;
+}

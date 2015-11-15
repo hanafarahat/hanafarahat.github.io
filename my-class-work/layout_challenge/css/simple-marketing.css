@@ -1,0 +1,26 @@
+header{
+	background-color: red;
+	height: 100px;
+	margin: 10px auto;
+}
+
+section{
+	background-color: yellow;
+	height: 250px;
+	width: 50%;
+	float: left;
+	margin: 10px auto;
+}
+article{
+	background-color: green;
+	height: 100px;
+	width: 33.3%;
+	float: right;
+	margin: 10px auto;
+}
+footer{
+	background-color: blue;
+	height: 100px;
+	clear: both;
+	margin: 10px auto;
+}

@@ -1,0 +1,44 @@
+.container{
+	width: 1000px;
+}
+header{
+	background-color: red;
+	height: 100px;
+	width: 200px;
+	float: left;
+	margin-bottom: 10px;
+}
+nav{
+	background-color: yellow;
+	height: 70px;
+	width: 140px;
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+aside{
+	background-color: blue;
+	width: 150px;
+	height: 500px;
+	float: left;
+	
+}
+main{
+	height: 100px;
+	width: 850px;
+	float: right;
+	clear: both;
+	background-color: black;
+}
+article{
+	background-color: green;
+	height: 100px;
+	width: 33%;
+	float: right;
+	margin: 10px 0px 10px 0px;
+}
+
+.clear{
+	clear: both;
+}
