@@ -1,0 +1,145 @@
+.container{
+	width: 1000px;
+}
+header{
+	background-color: black;
+	width: 1000px;
+	height: 75px;
+	border-bottom: 5px solid yellow;
+	overflow: hidden;
+
+}
+h1{
+	color: yellow;
+	font-size: 25px;
+	font-family: Merriweather;
+	padding: 0 30px;
+	float: left;
+}
+a{
+	color: white;
+	margin: 0 auto;
+	font-size: 15px;
+	font-family: "Source Sans Pro";
+	overflow: hidden;
+	margin-top: 26px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+nav{
+	color: white;
+	text-align: right;
+	float: right;
+	padding: 26px 0 0 0;
+}
+
+
+main{
+	height: 370px;
+	width: 1000px;
+	background-image: url("images/coworking.jpg");
+	overflow: hidden;
+
+}
+.littlebox{
+	width: 300px;
+	height: 300px;
+	background-color: rgba(255,255,255,0.70);
+	float: right;
+	margin: 30px;
+	font-family: "source sans pro"
+}
+h4{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+.littlebutton{
+	display: block;
+    height: 40px;
+    width: 250px;
+    background: yellow;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    text-decoration: none;
+    padding: 18px 0px 0px 0px;
+}
+article{
+	height: 300px;
+	width: 30%;
+	float: right;
+	border-right: 1px solid #dddddd;
+	padding: 15px;
+}
+h3{
+	font-family: 'Merriweather', sans-serif;
+}
+p{
+	font-family: "Source Sans Pro", sans-serif;
+}
+section{
+	height: 60px;
+	background-color: #C6C6C6;
+	text-align: center;
+	font-family: Merriweather;
+	font-style: italic;
+	font-size: 30px;
+	padding-top: 30px;
+	clear: both;
+
+}
+span{
+	text-decoration: line-through;
+	font-family: Merriweather;
+	font-size: 30px;
+	font-style: italic;
+	color: LightSlateGray;
+}
+.are{
+	text-decoration: none;
+	font-family: Merriweather;
+	font-size: 30px;
+	border-bottom: 2px solid yellow;
+	font-style: italic;
+	color: black;
+}
+
+.button {
+    display: block;
+    height: 40px;
+    width: 300px;
+    background: #C6C6C6;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: Oswald;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 18px 0px 0px 0px;
+
+}
+.box{
+	height: 300px;
+	width: 150px;
+	background-color: white;
+	opacity: 0.5;
+	float: right;
+}
+
+}
+.clear{
+	clear: both;
+}
+footer{
+	height: 75px;
+	width: 1000px;
+	font-family: "source sans pro";
+	background-color: black;
+	color: white;
+	clear: both;
+}
