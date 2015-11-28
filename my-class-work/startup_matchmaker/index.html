@@ -1,9 +1,12 @@
+<!-- Really good job on this! Main obvservation is that the page is set to a fixed width of 1000px.  Almost all modern websites have some degree of responsiveness so it would be good to see if you could keep the page styles yet not have this fixed width. Or, if you do want to keep the fixed width, center the page content. -->
+
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Startup Matchmaker</title>
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oswald:700|Merriweather:700,700italic' rel='stylesheet' type='text/css'>
-
+	<!-- looks like you are including Merriweather here twice -->
 	<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -14,6 +17,7 @@
 <body>
 	<div class="container">
 		<header>
+		<!-- html inside header should be indented -->
 		<h1>Startup Matchmaker</h1>
 		<nav>
 			<a href="#">Find Developers</a>
@@ -27,6 +31,7 @@
 		<section>Because two brains <span>taste</span> <span class="are">are</span> better than one.</section>
 		<main>
 			<div class="littlebox">
+			<!-- looks like "littlebox" could use some padding to match comp. also - this is not a hard and fast rule, but good practice is to use dashes in class names so would be "little-box" -->
 				<h4>Meet your Match!</h4>
 				<p class="meet">Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
 				<a href="#" class="littlebutton">CREATE A PROFILE</a>
@@ -49,6 +54,7 @@
 		</article>
 		<div class="clear"></div>
 	</div>
+	<!-- great use of semantic html elements like "footer" -->
 	<footer>&copy; 2013 Startup Matchmaker. Made in NY.</footer>
 
 </body>
