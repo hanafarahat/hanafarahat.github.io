@@ -1,0 +1,72 @@
+.container{
+	width: 1000px;
+}
+header{
+	background-color: #1574BB;
+	width: 1000px;
+	height: 75px;
+	border-bottom: 5px solid white;
+	overflow: hidden;
+
+}
+h1{
+	color: white;
+	font-size: 25px;
+	font-family: cursive;
+	padding: 0 30px;
+	float: left;
+}
+a{
+	color: white;
+	margin: 0 auto;
+	font-size: 15px;
+	font-family: "Source Sans Pro";
+	overflow: hidden;
+	margin-top: 26px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+nav{
+	color: white;
+	text-align: right;
+	float: right;
+	padding: 26px 0 0 0;
+}
+
+.box{
+	width: 200px;
+	height: 200px;
+	background-image: url("James-Bond.jpg");
+	float: left;
+}
+
+main{
+	height: 370px;
+	width: 1000px;
+	background-image: url("images/coworking.jpg");
+	overflow: hidden;
+
+}
+.littlebox{
+	width: 300px;
+	height: 300px;
+	background-color: rgba(255,255,255,0.70);
+	float: right;
+	margin: 30px;
+	font-family: "source sans pro"
+}
+h4{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+}
+
+.row div {
+	text-align: center;
+	width: 100px;
+	padding: 30px;
+	border: 1px dashed #252525;
+	float: right;
+}
