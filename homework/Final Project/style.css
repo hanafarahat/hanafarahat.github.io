@@ -24,6 +24,8 @@ a{
 	color: #3873DD;
 	padding-right: 30px;
 }
+
+
 main{
 	height: 500px;
 	width: 800px;
@@ -40,6 +42,17 @@ main{
 	height: 70px;
 	margin: 30px;
 }
+
+#payment-form {
+	=
+
+}
+
+
+#payment-table {
+	margin: 0 auto;
+}
+
 .paypal.png {
 	padding: 0px 0px 40px 0px;
 }

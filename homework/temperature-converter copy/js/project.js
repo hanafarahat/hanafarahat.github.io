@@ -22,6 +22,17 @@ $('#click').click (function (){
 
 $('.result').text(celRes)
 
+if (celRes > 26){
+	$('body').css('background-color','red')
+}
+else if (fahRes > 75) {
+	$('body').css('background-color', 'red')
+}
+else {
+	$('body').css('background-color', 'blue')
+}
+
+
 
 })
 })
