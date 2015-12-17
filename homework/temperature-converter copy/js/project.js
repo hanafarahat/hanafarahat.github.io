@@ -22,20 +22,23 @@ $('#click').click (function (){
 
 $('.result').text(celRes)
 
+if (celRes > 26){
+	$('body').css('background-color','red')
+}
+else if (fahRes > 75) {
+	$('body').css('background-color', 'red')
+}
+else {
+	$('body').css('background-color', 'blue')
+}
+
+
 
 })
 })
 
 
-document.getElementById('solution').innerHTML = fahRes;
-// what is this bracket closing?
-}
-
-// spelling
-dcoument.getElementById("click").onclick = calculatefah;
 
 
-document.getElementById('result').innerHTML = celRes;
-// what is this bracket closing?
-}
+
 

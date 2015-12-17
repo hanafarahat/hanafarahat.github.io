@@ -27,15 +27,7 @@ $('.result').text(celRes)
 })
 
 
-document.getElementById('solution').innerHTML = fahRes;
-// what is this bracket closing?
-}
-
-// spelling
-dcoument.getElementById("click").onclick = calculatefah;
 
 
-document.getElementById('result').innerHTML = celRes;
-// what is this bracket closing?
-}
+
 
