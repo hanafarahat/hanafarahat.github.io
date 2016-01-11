@@ -1,3 +1,6 @@
+/*would be best not to set a fixed width for container.  ideally want to be able to view the page at many different widths. floats help us accomplish this with pushing things to right or left of browser. we will talk more about responsive design.*/
+
+
 .container{
 	width: 1000px;
 }
@@ -108,8 +111,9 @@ span{
 	font-style: italic;
 	color: black;
 }
-
+in
 .button {
+		/*inconsistent indentation here*/
     display: block;
     height: 40px;
     width: 300px;
@@ -130,8 +134,9 @@ span{
 	opacity: 0.5;
 	float: right;
 }
-
+/*extra closing bracket?*/
 }
+/*good use of clear!*/
 .clear{
 	clear: both;
 }

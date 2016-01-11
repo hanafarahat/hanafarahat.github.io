@@ -35,6 +35,7 @@ li{
 a{
 	color: black;
 	text-align: center;
+/*	pull this declaration outside of a{}.*/
 	a:active {
     font-style: italic;
 }
@@ -52,6 +53,7 @@ h2{
 	font-family: helvetica;
 }
 h5 {border-bottom: 5px solid black}
+/* need to close p style declaration with a "}" unclosed brackets will break stylesheet */
 p{
 	font-size: 20px;
 	

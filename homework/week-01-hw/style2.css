@@ -9,9 +9,13 @@ h2 {
 	text-align: center;
 	font-size: 50px;
 }
+/*formatting - space after 'a'*/
 a{
+/*	don't need to set a to inline. already is*/
 	display: inline;
 	text-align: center;
 
 }
 h5 {border-bottom: 5px solid white}
+
+/*formatting - some exra line breaks. */
